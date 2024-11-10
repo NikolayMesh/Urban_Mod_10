@@ -33,5 +33,4 @@ second_knight.start()
 # Ожидание завершения
 first_knight.join()
 second_knight.join()
-
 print(f'Все битвы закончились!')
