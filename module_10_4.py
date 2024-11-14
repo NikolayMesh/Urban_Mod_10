@@ -15,7 +15,7 @@ class Guest(threading.Thread):
         super().__init__()
         self.name = name
 
-    def run_ (self):
+    def run(self):
         wait_time = random.randint(3,10)
         time.sleep(wait_time)
 
